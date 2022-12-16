@@ -1,0 +1,43 @@
+html {
+    font-size: 10px;
+    font-family: 'La Belle Aurore', cursive;
+    background-color: #515F70;
+}
+
+body {
+    width: 850px;
+    /*заставляет тело быть всегда 842 пикселей в ширину*/
+    margin: 0 auto;
+    /*отступы*/
+    background-color: #F4F4F4;
+    padding: 0 20px 20px 20px;
+    /*отступы*/
+    border: 3px solid black;
+    /*делает черную рамку*/
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    /*Отцентровали текст*/
+    margin: 5px;
+    padding: 10px 0px;
+    color: #2A3746;
+    text-shadow: 2px 2px 2px grey;
+}
+
+img {
+    width: 750px;
+    /*задали ширину изображения*/
+    display: block;
+    margin: 0 auto;
+}
+
+p,
+li,
+a,
+button {
+    font-size: 16px;
+    line-height: 1, 5;
+    letter-spacing: 1px;
+}
